@@ -5,4 +5,4 @@ import uiSlice from "./ui-slice";
     reducer: {ui: uiSlice.reducer}  //*!
 })
 
-export default store
+export default store;
