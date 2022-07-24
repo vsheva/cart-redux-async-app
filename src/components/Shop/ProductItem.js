@@ -13,6 +13,7 @@ const dispatch = useDispatch();
       id: id,
       title:title,
       price:price,
+      //description:description,
     }))
   }
 
