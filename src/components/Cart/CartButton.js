@@ -4,7 +4,8 @@ import {uiActions} from "../../store/ui-slice";
 
 const CartButton = (props) => {
 
-    const cartQuantity= useSelector(state => state.cart.totalQuantity); //берем часть redux-toolkit, нужно количество в бадже
+    const cartQuantity= useSelector(state => state.cart.totalQuantity
+    ); //берем часть redux-toolkit, нужно количество в бадже
 
     const dispatch = useDispatch();
 
