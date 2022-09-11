@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import Card from '../UI/Card';
 import classes from './Cart.module.css';
 import CartItem from './CartItem';
